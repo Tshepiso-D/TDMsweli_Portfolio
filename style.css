@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-
+/*Overlay*/
 .overlay {
     z-index: -1;
     height: 100%;
@@ -24,7 +24,7 @@
     position: relative;
     z-index: 1;
 }
-
+/*Navigation*/
 .nav-masthead .nav-link {
     padding: .25rem 0;
     font-weight: 700;
