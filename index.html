@@ -17,8 +17,16 @@
     <link href="style.css" rel="stylesheet">
 </head>
 
-<body class="bg-light">
-    <header class="px-5 p-3 text-white fixed-top bg-black">
+<body>
+    <input class="theme-toggle" type="checkbox" id="theme-toggle" aria-label="Toggle dark mode">
+    <label class="theme-toggle__button" for="theme-toggle" title="Toggle dark mode">
+        <span class="theme-toggle__icon theme-toggle__icon--sun" aria-hidden="true">☀</span>
+        <span class="theme-toggle__icon theme-toggle__icon--moon" aria-hidden="true">☾</span>
+        <span class="visually-hidden">Toggle dark mode</span>
+    </label>
+
+    <div class="page">
+    <header class="site-header px-5 p-3 fixed-top">
         <div>
             <h3 class="float-md-start text-center">Portfolio</h3>
             <nav class="nav nav-masthead justify-content-center float-md-end ">
@@ -216,11 +224,12 @@
         </div>
     </section>
 
-    <footer class="bg-black text-center text-white">
+    <footer class="site-footer text-center">
         <div class="container p-3">
             <p>Developed by Tshepiso Msweli using Bootstrap</p>
         </div>
     </footer>
+</div>
 </body>
 
 </html>
